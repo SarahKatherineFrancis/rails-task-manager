@@ -13,3 +13,36 @@
  *= require_tree .
  *= require_self
  */
+.tasks-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.tasks-list a {
+  text-decoration: none;
+}
+
+.tasks-list a:hover {
+  text-decoration: underline;
+}
+
+.add-task a {
+  text-decoration: none;
+}
+
+.back-link a {
+  text-decoration: none;
+}
+
+.task-details {
+  background-color: lightgray;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.float-right {
+  position: absolute;
+  top: 0;
+  right: 80px;
+}
